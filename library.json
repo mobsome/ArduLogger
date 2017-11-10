@@ -1,0 +1,13 @@
+{
+  "name": "ArduLogger",
+  "keywords": "arduino, log, esp2866",
+  "description": "Console logger for Arduino with levels and tags support",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/mobsome/ArduLogger.git"
+  },
+  "frameworks": "arduino",
+  "platforms": "espressif, arduino",
+  "version": "1.0"
+}
