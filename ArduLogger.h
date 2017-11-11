@@ -2,7 +2,6 @@
 #define ArduLogger_h
 
 #include <Arduino.h>
-#include <map>
 
 namespace ardulogger {
 /**
@@ -95,14 +94,12 @@ private:
   Log(Level a_level)
     : level(a_level)
   {}
-  typedef std::map<String, Log*> TagMap;
 
   static Log LOG_D;
   static Log LOG_I;
   static Log LOG_W;
   static Log LOG_E;
   static Log LOG_N;
-  static TagMap tags;
   Level level;
 };
 
